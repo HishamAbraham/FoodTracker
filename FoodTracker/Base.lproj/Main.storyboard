@@ -48,6 +48,7 @@
                                     <outlet property="nameLabel" destination="H9O-Vn-PEE" id="bPD-wx-0ol"/>
                                     <outlet property="photoImageView" destination="Clw-Zx-fJl" id="2cM-dA-z6H"/>
                                     <outlet property="ratingControl" destination="1IX-j2-Vk7" id="vG1-BF-Qi6"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="0gK-Sh-LO9"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -175,10 +176,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05i-1I-oS0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1252" y="76.911544227886068"/>
+            <point key="canvasLocation" x="1353" y="530"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="0gK-Sh-LO9"/>
+    </inferredMetricsTieBreakers>
 </document>
